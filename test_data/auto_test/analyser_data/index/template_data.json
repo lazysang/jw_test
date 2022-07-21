@@ -1,0 +1,49 @@
+{
+    "test_add_index_template": [
+        {
+            "dto": {
+                "template_name": "模板名称01",
+                "name": "字段01",
+                "field": "field01"
+            }
+        }
+    ],
+    "test_edit_index_template": [
+        [
+            {
+                "template_name": "模板名称02",
+                "name": "字段02",
+                "field": "field02",
+                "template_name_edit": "模板名称02_编辑"
+            }
+        ]
+    ],
+    "test_delete_index_template": [
+        [
+            {
+                "template_name": "模板名称03",
+                "name": "字段03",
+                "field": "field03"
+            }
+        ]
+    ],
+    "test_clone_index_template": [
+        [
+            {
+                "template_name": "模板名称03",
+                "name": "字段03",
+                "field": "field03",
+                "template_name_clone": "模板名称03_克隆"
+            }
+        ]
+    ],
+    "test_filter_for_index_template_list": [
+        [
+            {
+                "template_name": "模板名称04",
+                "name": "字段04",
+                "field": "field04"
+            }
+        ]
+    ]
+}

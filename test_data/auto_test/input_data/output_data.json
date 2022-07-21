@@ -1,0 +1,45 @@
+{
+    "test_add_output_of_gelf": [
+        [
+            {
+                "output_type": "GELF输出",
+                "output_name": "输出01",
+                "addr": "http://10.168.1.137"
+            }
+        ]
+    ],
+    "test_add_output_of_console": [
+        [
+            {
+                "output_type": "控制台输出",
+                "output_name": "输出02"
+            }
+        ]
+    ],
+    "test_add_output_of_engine": [
+        [
+            {   "index_name":"索引名称01",
+                "index_prefix":"test01",
+                "output_type": "输出到引擎",
+                "output_name": "输出03"
+            }
+        ]
+    ],
+    "test_edit_output":[
+        [
+            {
+                "output_type": "控制台输出",
+                "output_name": "输出04",
+                "output_name_edit":"输出04编辑"
+            }
+        ]
+    ],
+    "test_delete_output":[
+        [
+            {
+                "output_type": "控制台输出",
+                "output_name": "输出05"
+            }
+        ]
+    ]
+}

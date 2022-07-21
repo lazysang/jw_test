@@ -1,0 +1,217 @@
+{
+    "test_add_interface": [
+        [
+            {
+                "interface_type": "Beats",
+                "interface_name": "Beats01"
+            }
+        ]
+    ],
+    "test_add_interface_of_cef_amqp": [
+        [
+            {
+                "interface_type": "CEF AMQP",
+                "interface_name": "CEF AMQP01",
+                "broker_addr": "broker_addr01"
+            }
+        ]
+    ],
+    "test_add_interface_of_cef_kafka": [
+        [
+            {
+                "interface_type": "CEF Kafka",
+                "interface_name": "CEF Kafka01"
+            }
+        ]
+    ],
+    "test_add_interface_of_cef_tcp": [
+        [
+            {
+                "interface_type": "CEF TCP",
+                "interface_name": "CEF TCP01"
+            }
+        ]
+    ],
+    "test_add_interface_of_cef_udp": [
+        [
+            {
+                "interface_type": "CEF UDP",
+                "interface_name": "CEF UDP01"
+            }
+        ]
+    ],
+    "test_add_interface_of_netflow_udp": [
+        [
+            {
+                "interface_type": "NetFlow UDP",
+                "interface_name": "NetFlow UDP01"
+            }
+        ]
+    ],
+    "test_add_interface_of_gelf_amqp": [
+        [
+            {
+                "interface_type": "GELF AMQP",
+                "interface_name": "GELF AMQP01",
+                "broker_addr": "broker_addr01"
+            }
+        ]
+    ],
+    "test_add_interface_of_gelf_http": [
+        [
+            {
+                "interface_type": "GELF HTTP",
+                "interface_name": "GELF HTTP01"
+            }
+        ]
+    ],
+    "test_add_interface_of_gelf_kafka": [
+        [
+            {
+                "interface_type": "GELF Kafka",
+                "interface_name": "GELF Kafka01"
+            }
+        ]
+    ],
+    "test_add_interface_of_gelf_tcp": [
+        [
+            {
+                "interface_type": "GELF TCP",
+                "interface_name": "GELF TCP01"
+            }
+        ]
+    ],
+    "test_add_interface_of_gelf_udp": [
+        [
+            {
+                "interface_type": "GELF UDP",
+                "interface_name": "GGELF UDP01"
+            }
+        ]
+    ],
+    "test_add_interface_of_rawplaintext_amqp": [
+        [
+            {
+                "interface_type": "Raw/Plaintext AMQP",
+                "interface_name": "RawPlaintext AMQP01",
+                "broker_addr": "broker_addr01"
+            }
+        ]
+    ],
+    "test_add_interface_of_rawplaintext_kafka": [
+        [
+            {
+                "interface_type": "Raw/Plaintext Kafka",
+                "interface_name": "RawPlaintext Kafka01"
+            }
+        ]
+    ],
+    "test_add_interface_of_rawplaintext_tcp": [
+        [
+            {
+                "interface_type": "Raw/Plaintext TCP",
+                "interface_name": "RawPlaintext TCP01"
+            }
+        ]
+    ],
+    "test_add_interface_of_rawplaintext_udp": [
+        [
+            {
+                "interface_type": "Raw/Plaintext UDP",
+                "interface_name": "RawPlaintext UDP01"
+            }
+        ]
+    ],
+    "test_add_interface_of_syslog_amqp": [
+        [
+            {
+                "interface_type": "Syslog AMQP",
+                "interface_name": "Syslog AMQP01",
+                "broker_addr": "broker_addr01"
+            }
+        ]
+    ],
+    "test_add_interface_of_syslog_kafka": [
+        [
+            {
+                "interface_type": "Syslog Kafka",
+                "interface_name": "Syslog Kafka01"
+            }
+        ]
+    ],
+    "test_add_interface_of_syslog_tcp": [
+        [
+            {
+                "interface_type": "Syslog TCP",
+                "interface_name": "Syslog TCP01"
+            }
+        ]
+    ],
+    "test_add_interface_of_syslog_udp": [
+        [
+            {
+                "interface_type": "Syslog UDP",
+                "interface_name": "Syslog UDP01"
+            }
+        ]
+    ],
+    "test_edit_interface_of_syslog_tcp": [
+        [
+            {
+                "interface_type": "Syslog TCP",
+                "interface_name": "Syslog TCP02",
+                "interface_port": "2002",
+                "interface_name_edit": "Syslog TCP02_编辑"
+            }
+        ]
+    ],
+    "test_delete_interface_of_syslog_tcp": [
+        [
+            {
+                "interface_type": "Syslog TCP",
+                "interface_name": "Syslog TCP03",
+                "interface_port": "2003"
+            }
+        ]
+    ],
+    "test_interface_add_static_property": [
+        [
+            {
+                "interface_type": "Syslog TCP",
+                "interface_name": "Syslog TCP04",
+                "interface_port": "2004",
+                "field": "field04",
+                "value": "value04"
+            }
+        ]
+    ],
+    "test_interface_delete_static_property": [
+        [
+            {
+                "interface_type": "Syslog TCP",
+                "interface_name": "Syslog TCP05",
+                "interface_port": "2005",
+                "field": "field05",
+                "value": "value05"
+            }
+        ]
+    ],
+    "test_enable_port_mapping": [
+        [
+            {
+                "interface_type": "Syslog TCP",
+                "interface_name": "Syslog TCP06",
+                "interface_port": "2006"
+            }
+        ]
+    ],
+    "test_disable_port_mapping":[
+        [
+            {
+                "interface_type": "Syslog TCP",
+                "interface_name": "Syslog TCP07",
+                "interface_port": "2007"
+            }
+        ]
+    ]
+}

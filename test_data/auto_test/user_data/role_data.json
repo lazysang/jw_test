@@ -1,0 +1,43 @@
+{
+    "test_add_role": [
+        [
+            {
+                "role_name": "角色名称01"
+            }
+        ]
+    ],
+    "test_edit_role": [
+        [
+            {
+                "role_name": "角色名称02",
+                "role_name_edit": "角色名称02_编辑"
+            }
+        ]
+    ],
+    "test_delete_role": [
+        [
+            {
+                "role_name": "角色名称03"
+            }
+        ]
+    ],
+    "test_filter_for_role_list": [
+        [
+            {
+                "role_name": "角色名称04"
+            }
+        ]
+    ],
+    "test_delete_role_bind_user": [
+        [
+            {
+                "role_name": "角色名称05",
+                "user_name": "用户名称02",
+                "password": "1qaz@WSX",
+                "name": "姓名02",
+                "mail": "123@123.com",
+                "toast_text": "角色正在被使用"
+            }
+        ]
+    ]
+}

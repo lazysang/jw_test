@@ -1,0 +1,67 @@
+{
+    "test_add_index": [
+        {
+            "dto": {
+                "index_name": "索引名称01",
+                "index_description": "索引描述01",
+                "index_prefix": "index01"
+            }
+        }
+    ],
+    "test_add_index_of_template": [
+        [
+            {
+                "index_name": "索引名称02",
+                "index_description": "索引描述02",
+                "index_prefix": "index02",
+                "template_name": "Syslog"
+            }
+        ]
+    ],
+    "test_edit_index": [
+        [
+            {
+                "index_name": "索引名称03",
+                "index_prefix": "index03",
+                "index_name_edit": "索引名称03_编辑"
+            }
+        ]
+    ],
+    "test_delete_index": [
+        [
+            {
+                "index_name": "索引名称04",
+                "index_prefix": "index04"
+            }
+        ]
+    ],
+    "test_add_index_field": [
+        [
+            {
+                "index_name": "索引名称05",
+                "index_prefix": "index05",
+                "name": "字段01",
+                "field": "field01"
+            }
+        ]
+    ],
+    "test_clone_index": [
+        [
+            {
+                "index_name": "索引名称06",
+                "index_prefix": "index06",
+                "index_name_clone": "索引名称06_克隆",
+                "description_clone": "索引描述06",
+                "index_prefix_clone": "index06clone"
+            }
+        ]
+    ],
+    "test_filter_for_index_list": [
+        [
+            {
+                "index_name": "索引名称07",
+                "index_prefix": "index07"
+            }
+        ]
+    ]
+}

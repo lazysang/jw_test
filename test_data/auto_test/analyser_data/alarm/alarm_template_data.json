@@ -1,0 +1,43 @@
+{
+    "test_add_alarm_template": [
+        [
+            {
+                "template_name": "告警模板01",
+                "addressee": "123@123.com",
+                "subject": "主题01",
+                "alarm_text": "正文01"
+            }
+        ]
+    ],
+    "test_edit_alarm_template": [
+        [
+            {
+                "template_name": "告警模板02",
+                "addressee": "123@123.com",
+                "subject": "主题02",
+                "alarm_text": "正文02",
+                "template_name_edit": "告警模板02编辑"
+            }
+        ]
+    ],
+    "test_delete_alarm_template": [
+        [
+            {
+                "template_name": "告警模板03",
+                "addressee": "123@123.com",
+                "subject": "主题03",
+                "alarm_text": "正文03"
+            }
+        ]
+    ],
+    "test_filter_for_alarm_template_list":[
+        [
+            {
+                "template_name": "告警模板04",
+                "addressee": "123@123.com",
+                "subject": "主题04",
+                "alarm_text": "正文04"
+            }
+        ]
+    ]
+}

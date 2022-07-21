@@ -1,0 +1,28 @@
+{
+    "test_add_linux_log": [
+        {
+            "dto": {
+                "flow_name": "业务流名称01",
+                "index_name": "索引名称01",
+                "index_prefix": "test01",
+                "interface_type": "Syslog TCP",
+                "interface_name": "接口名称01",
+                "interface_port": "7777",
+                "stream_name": "数据流名称01",
+                "stream_description": "数据流描述01",
+                "output_name": "输出名称01",
+                "assert_xpath": "//mat-table/mat-row[1]"
+            }
+        }
+    ],
+    "test_add_resolution": [
+        {
+            "dto": {
+                "interface_name": "init接口名称",
+                "index_name": "init索引名称",
+                "resolution_filed": "copy_message",
+                "resolution_title": "复制解析器1"
+            }
+        }
+    ]
+}

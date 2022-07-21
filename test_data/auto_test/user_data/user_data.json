@@ -1,0 +1,60 @@
+{
+    "test_add_user": [
+        [
+            {
+                "role_name": "user角色名称01",
+                "user_name": "用户名称01",
+                "password": "1qaz@WSX",
+                "name": "姓名01",
+                "mail": "123@123.com"
+            }
+        ]
+    ],
+    "test_edit_user": [
+        [
+            {
+                "role_name": "user角色名称02",
+                "user_name": "用户名称02",
+                "password": "1qaz@WSX",
+                "name": "姓名02",
+                "mail": "123@123.com",
+                "name_edit": "姓名02编辑"
+            }
+        ]
+    ],
+    "test_edit_user_account": [
+        [
+            {
+                "role_name": "user角色名称03",
+                "user_name": "用户名称03",
+                "password": "1qaz@WSX",
+                "name": "姓名03",
+                "mail": "123@123.com",
+                "new_password": "1qaz@WSX",
+                "confirm_password": "1qaz@WSX"
+            }
+        ]
+    ],
+    "test_delete_user": [
+        [
+            {
+                "role_name": "user角色名称04",
+                "user_name": "用户名称04",
+                "password": "1qaz@WSX",
+                "name": "姓名04",
+                "mail": "123@123.com"
+            }
+        ]
+    ],
+    "test_filter_for_user_list":[
+        [
+            {
+                "role_name": "user角色名称05",
+                "user_name": "用户名称05",
+                "password": "1qaz@WSX",
+                "name": "姓名05",
+                "mail": "123@123.com"
+            }
+        ]
+    ]
+}

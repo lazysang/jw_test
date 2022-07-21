@@ -1,0 +1,213 @@
+{
+    "test_add_stream": [
+        [
+            {
+                "stream_name": "数据流名称01",
+                "stream_description": "数据流描述01"
+            }
+        ]
+    ],
+    "test_edit_stream": [
+        [
+            {
+                "stream_name": "数据流名称02",
+                "stream_description": "数据流描述02",
+                "stream_name_edit": "数据流名称02编辑"
+            }
+        ]
+    ],
+    "test_delete_stream": [
+        [
+            {
+                "stream_name": "数据流名称03",
+                "stream_description": "数据流描述03"
+            }
+        ]
+    ],
+    "test_clone_stream": [
+        [
+            {
+                "stream_name": "数据流名称04",
+                "stream_description": "数据流描述04",
+                "stream_name_clone": "数据流名称04克隆",
+                "stream_description_clone": "数据流描述04克隆"
+            }
+        ]
+    ],
+    "test_run_stream": [
+        [
+            {
+                "stream_name": "数据流名称05",
+                "stream_description": "数据流描述05"
+            }
+        ]
+    ],
+    "test_close_stream": [
+        [
+            {
+                "stream_name": "数据流名称06",
+                "stream_description": "数据流描述06"
+            }
+        ]
+    ],
+    "test_filter_for_stream_list": [
+        [
+            {
+                "stream_name": "数据流名称07",
+                "stream_description": "数据流描述07"
+            }
+        ]
+    ],
+    "test_add_stream_rule_of_exact_match": [
+        [
+            {
+                "stream_name": "数据流名称08",
+                "stream_description": "数据流描述08",
+                "condition": "精确匹配",
+                "field": "字段08",
+                "value": "值08"
+            }
+        ]
+    ],
+    "test_add_stream_rule_of_match_regular": [
+        [
+            {
+                "stream_name": "数据流名称09",
+                "stream_description": "数据流描述09",
+                "condition": "匹配正则表达式",
+                "field": "字段09",
+                "value": "值09"
+            }
+        ]
+    ],
+    "test_add_stream_rule_of_greater_than": [
+        [
+            {
+                "stream_name": "数据流名称10",
+                "stream_description": "数据流描述10",
+                "condition": "大于",
+                "field": "字段10",
+                "value": "值10"
+            }
+        ]
+    ],
+    "test_add_stream_rule_of_less_than": [
+        [
+            {
+                "stream_name": "数据流名称11",
+                "stream_description": "数据流描述11",
+                "condition": "小于",
+                "field": "字段11",
+                "value": "值11"
+            }
+        ]
+    ],
+    "test_add_stream_rule_of_exist": [
+        [
+            {
+                "stream_name": "数据流名称12",
+                "stream_description": "数据流描述12",
+                "condition": "存在",
+                "field": "字段12"
+            }
+        ]
+    ],
+    "test_add_stream_rule_of_include": [
+        [
+            {
+                "stream_name": "数据流名称13",
+                "stream_description": "数据流描述13",
+                "condition": "包含",
+                "field": "字段13",
+                "value": "值13"
+            }
+        ]
+    ],
+    "test_add_stream_rule_of_never_hit": [
+        [
+            {
+                "stream_name": "数据流名称14",
+                "stream_description": "数据流描述14",
+                "condition": "永远命中"
+            }
+        ]
+    ],
+    "test_add_stream_rule_of_match_interface": [
+        [
+            {
+                "interface_type": "Syslog TCP",
+                "interface_name": "Syslog TCP15",
+                "interface_port": "2015",
+                "stream_name": "数据流名称15",
+                "stream_description": "数据流描述15",
+                "condition": "匹配接口"
+            }
+        ]
+    ],
+    "test_add_stream_rule_of_gelf_output": [
+        [
+            {
+                "stream_name": "数据流名称16",
+                "stream_description": "数据流描述16",
+                "mode": "GELF输出",
+                "output_name": "stream输出16",
+                "addr": "http://10.168.1.137"
+            }
+        ]
+    ],
+    "test_add_stream_rule_of_console": [
+        [
+            {
+                "stream_name": "数据流名称17",
+                "stream_description": "数据流描述17",
+                "mode": "控制台输出",
+                "output_name": "stream输出17"
+            }
+        ]
+    ],
+    "test_add_stream_rule_of_engine": [
+        [
+            {
+                "stream_name": "数据流名称18",
+                "stream_description": "数据流描述18",
+                "index_name": "索引名称18",
+                "index_prefix": "test18",
+                "mode": "输出到引擎",
+                "output_name": "stream输出18"
+            }
+        ]
+    ],
+    "test_add_stream_rule_of_exist_output": [
+        [
+            {
+                "stream_name": "数据流名称19",
+                "stream_description": "数据流描述19",
+                "output_type": "控制台输出",
+                "output_name": "stream输出19"
+            }
+        ]
+    ],
+    "test_edit_stream_rule_of_engine":[
+        [
+            {
+                "stream_name": "数据流名称20",
+                "stream_description": "数据流描述20",
+                "index_name":"stream索引名称20",
+                "index_prefix":"stream20",
+                "output_name": "stream输出20",
+                "output_name_edit":"输出20编辑"
+            }
+        ]
+    ],
+    "test_remove_stream_rule_of_engine":[
+        [
+            {
+                "stream_name": "数据流名称21",
+                "stream_description": "数据流描述21",
+                "index_name":"stream索引名称21",
+                "index_prefix":"stream21",
+                "output_name": "stream输出21"
+            }
+        ]
+    ]
+}

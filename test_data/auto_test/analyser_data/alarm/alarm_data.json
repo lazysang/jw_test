@@ -1,0 +1,258 @@
+{
+    "test_add_alarm_of_type_once": [
+        [
+            {
+                "index_name": "alarm索引01",
+                "index_prefix": "alarm01",
+                "template_name": "alarm告警模板01",
+                "addressee": "123@123.com",
+                "subject": "主题01",
+                "alarm_text": "正文01",
+                "alarm_name": "告警01",
+                "plan_type": "执行一次",
+                "execute_time": "2025-01-01 00:00:00",
+                "execute_type": "脚本",
+                "save_field": "save_field01",
+                "info_type": "基于模板"
+            }
+        ]
+    ],
+    "test_add_alarm_of_type_minute": [
+        [
+            {
+                "index_name": "alarm索引02",
+                "index_prefix": "alarm02",
+                "template_name": "alarm告警模板02",
+                "addressee": "123@123.com",
+                "subject": "主题02",
+                "alarm_text": "正文02",
+                "alarm_name": "告警02",
+                "plan_type": "按分钟",
+                "interval": "1",
+                "execute_type": "脚本",
+                "save_field": "save_field02",
+                "info_type": "基于模板"
+            }
+        ]
+    ],
+    "test_add_alarm_of_type_hour": [
+        [
+            {
+                "index_name": "alarm索引03",
+                "index_prefix": "alarm03",
+                "template_name": "alarm告警模板03",
+                "addressee": "123@123.com",
+                "subject": "主题03",
+                "alarm_text": "正文03",
+                "alarm_name": "告警03",
+                "plan_type": "按小时",
+                "interval": "1",
+                "execute_type": "脚本",
+                "save_field": "save_field03",
+                "info_type": "基于模板"
+            }
+        ]
+    ],
+    "test_add_alarm_of_type_day": [
+        [
+            {
+                "index_name": "alarm索引04",
+                "index_prefix": "alarm04",
+                "template_name": "alarm告警模板04",
+                "addressee": "123@123.com",
+                "subject": "主题04",
+                "alarm_text": "正文04",
+                "alarm_name": "告警04",
+                "plan_type": "按天",
+                "interval": "1",
+                "execute_type": "脚本",
+                "save_field": "save_field04",
+                "info_type": "基于模板"
+            }
+        ]
+    ],
+    "test_add_alarm_of_type_everyday": [
+        [
+            {
+                "index_name": "alarm索引05",
+                "index_prefix": "alarm05",
+                "template_name": "alarm告警模板05",
+                "addressee": "123@123.com",
+                "subject": "主题05",
+                "alarm_text": "正文05",
+                "alarm_name": "告警05",
+                "plan_type": "每天",
+                "interval_day": "11:00",
+                "execute_type": "脚本",
+                "save_field": "save_field05",
+                "info_type": "基于模板"
+            }
+        ]
+    ],
+    "test_add_alarm_of_type_weekly": [
+        [
+            {
+                "index_name": "alarm索引06",
+                "index_prefix": "alarm06",
+                "template_name": "alarm告警模板06",
+                "addressee": "123@123.com",
+                "subject": "主题06",
+                "alarm_text": "正文06",
+                "alarm_name": "告警06",
+                "plan_type": "每周",
+                "week": "星期一",
+                "execute_time": "11:00",
+                "execute_type": "脚本",
+                "save_field": "save_field06",
+                "info_type": "基于模板"
+            }
+        ]
+    ],
+    "test_add_alarm_of_type_monthly": [
+        [
+            {
+                "index_name": "alarm索引07",
+                "index_prefix": "alarm07",
+                "template_name": "alarm告警模板07",
+                "addressee": "123@123.com",
+                "subject": "主题07",
+                "alarm_text": "正文07",
+                "alarm_name": "告警07",
+                "plan_type": "每月",
+                "interval_month": "1",
+                "execute_time": "11:00",
+                "execute_type": "脚本",
+                "save_field": "save_field07",
+                "info_type": "基于模板"
+            }
+        ]
+    ],
+    "test_add_alarm_of_type_cron": [
+        [
+            {
+                "index_name": "alarm索引08",
+                "index_prefix": "alarm08",
+                "template_name": "alarm告警模板08",
+                "addressee": "123@123.com",
+                "subject": "主题08",
+                "alarm_text": "正文08",
+                "alarm_name": "告警08",
+                "plan_type": "cron表达式",
+                "cron": "0 */1 * * * ?",
+                "execute_type": "脚本",
+                "save_field": "save_field08",
+                "info_type": "基于模板"
+            }
+        ]
+    ],
+    "test_add_alarm_of_execute_threshold": [
+        [
+            {
+                "index_name": "alarm索引09",
+                "index_prefix": "alarm09",
+                "template_name": "alarm告警模板09",
+                "addressee": "123@123.com",
+                "subject": "主题09",
+                "alarm_text": "正文09",
+                "alarm_name": "告警09",
+                "plan_type": "cron表达式",
+                "cron": "0 */1 * * * ?",
+                "execute_type": "计算阈值",
+                "filed": "filed09",
+                "time_filed": "time_filed09",
+                "save_field": "save_field08",
+                "info_type": "基于模板"
+            }
+        ]
+    ],
+    "test_add_alarm_of_add_mail": [
+        [
+            {
+                "index_name": "alarm索引10",
+                "index_prefix": "alarm10",
+                "alarm_name": "告警10",
+                "plan_type": "cron表达式",
+                "cron": "0 */1 * * * ?",
+                "execute_type": "计算阈值",
+                "filed": "filed10",
+                "time_filed": "time_filed10",
+                "save_field": "save_field10",
+                "info_type": "发送电子邮件",
+                "template_name": "alarm告警模板10",
+                "addressee": "123@123.com",
+                "subject": "主题10",
+                "alarm_text": "正文10"
+            }
+        ]
+    ],
+    "test_edit_alarm": [
+        [
+            {
+                "index_name": "alarm索引11",
+                "index_prefix": "alarm11",
+                "template_name": "alarm告警模板11",
+                "addressee": "123@123.com",
+                "subject": "主题11",
+                "alarm_text": "正文11",
+                "alarm_name": "告警11",
+                "execute_time": "2025-01-01 00:00:00",
+                "execute_type": "脚本",
+                "save_field": "save_field11",
+                "info_type": "基于模板",
+                "alarm_name_edit": "告警11编辑"
+            }
+        ]
+    ],
+    "test_delete_alarm": [
+        [
+            {
+                "index_name": "alarm索引12",
+                "index_prefix": "alarm12",
+                "template_name": "alarm告警模板12",
+                "addressee": "123@123.com",
+                "subject": "主题12",
+                "alarm_text": "正文12",
+                "alarm_name": "告警12",
+                "execute_time": "2025-01-01 00:00:00",
+                "execute_type": "脚本",
+                "save_field": "save_field12",
+                "info_type": "基于模板"
+            }
+        ]
+    ],
+    "test_filter_for_alarm_list": [
+        [
+            {
+                "index_name": "alarm索引13",
+                "index_prefix": "alarm13",
+                "template_name": "alarm告警模板13",
+                "addressee": "123@123.com",
+                "subject": "主题13",
+                "alarm_text": "正文13",
+                "alarm_name": "告警13",
+                "execute_time": "2025-01-01 00:00:00",
+                "execute_type": "脚本",
+                "save_field": "save_field13",
+                "info_type": "基于模板"
+            }
+        ]
+    ],
+    "test_copy_alarm": [
+        [
+            {
+                "index_name": "alarm索引14",
+                "index_prefix": "alarm14",
+                "template_name": "alarm告警模板14",
+                "addressee": "123@123.com",
+                "subject": "主题14",
+                "alarm_text": "正文14",
+                "alarm_name": "告警14",
+                "execute_time": "2025-01-01 00:00:00",
+                "execute_type": "脚本",
+                "save_field": "save_field14",
+                "info_type": "基于模板",
+                "alarm_name_copy": "告警14复制"
+            }
+        ]
+    ]
+}
